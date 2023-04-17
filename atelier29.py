@@ -9,3 +9,14 @@ if age > 18:
     print("Vous êtes majeur !")
 else:
     print("Vous êtes mineur !")
+    
+    
+ # En mode fonction
+def demander_age():
+    # Demander à l'utilisateur de taper son âge
+    age = int(input("Tapez votre age : "))
+    if age > 18:
+        return print("Vous êtes majeur !")
+    print("Vous êtes mineur !")
+
+demander_age()
